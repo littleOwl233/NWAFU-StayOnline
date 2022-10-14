@@ -47,13 +47,13 @@
         # 守护模式（我猜测是防掉线？还没尝试）
         guardian:
             # true为启用
-            enable: true
+            enable: false
             # 网络检查周期（秒）
             duration: 300
         # 后台模式（不建议windows使用）
         # 不知道这个daemon和Linux中的daemon（守护进程）是不是一个意思，如果仅仅是需要后台运行的话，在运行命令前加上nohup同样可以实现
         daemon:
-            enable: true
+            enable: false
             # 守护监听文件路径，确保只有单守护运行
             path: .autoLogin
         debug:
@@ -95,10 +95,10 @@
             timeout: 5
             interfaces: ""
         guardian:
-            enable: true
+            enable: false
             duration: 300
         daemon:
-            enable: true
+            enable: false
             path: .autoLogin
         debug:
             enable: false

@@ -7,6 +7,7 @@
 编译详情请查看 https://github.com/Mmx233/BitSrunLoginGo 的项目，本项目只介绍使用方法
 
 ## 使用方法
+![演示](https://github.com/littleOwl233/NWAFU-StayOnline/blob/main/%E6%BC%94%E7%A4%BA%E6%88%AA%E5%9B%BE.png)
 1. 根据设备架构下载编译后的可执行文件，解压后获得名为`autoLogin`的文件
    > [点这里跳转到原项目的可执行文件下载页面](https://github.com/Mmx233/BitSrunLoginGo/releases)
    
